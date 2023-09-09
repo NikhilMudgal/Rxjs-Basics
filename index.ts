@@ -14,6 +14,7 @@ const observable$ = new Observable<string>((subsciber) => {
 // observable$.subscribe(observer);
 
 //Shorthand property of above observable$.subscribe((value) => console.log(value))
+
 const subscription = observable$.subscribe((value) => console.log(value)); // subscribe method return Subscription type
 
 setTimeout(() => {
